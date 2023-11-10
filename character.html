@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <section class="w-full h-screen overflow-x-scroll no-scrollbar bg-no-repeat z-50" id="element-to-hide" style="background-image:url('./assets/img/bg1.jpg');">
+        <div class="w-full absolute -top-[80px] z-0 shadow-xl">
+            <img src="./assets/img/block_texture_white.jpg" alt="" class="">
+        </div>
+        <div class="max-w-[1500px] flex mx-auto">
+            <div class="absolute -top-6">
+                <img src="./assets/img/endfield_pattern.png" alt="" >
+            </div>
+            <div class="absolute top-32">
+                <img src="./assets/img/arknights_prefix.png" alt="">
+            </div>
+            <div class="absolute top-[160px] w-[200px] left-[180px] EndLogo">
+                <img src="./assets/img/Logo.png" alt="">
+            </div>
+            <div class="absolute top-[260px] w-[789px] h-[9px] left-[170px] bg-yellow-300"></div>
+            
+        </div>
+
+        <div class="the-blink1 opacity-0">
+            <div class="blinking-box-1 absolute top-[0px] left-[0px] w-[400px] h-[270px] bg-black"></div>
+            <div class="blinking-box-2 absolute top-[0px] left-[400px] w-[400px] h-[270px] bg-black"></div>
+            <div class="blinking-box-3 absolute top-[0px] left-[800px] w-[400px] h-[270px] bg-black"></div>
+            <div class="blinking-box-4 absolute top-[0px] left-[1200px] w-[400px] h-[270px] bg-black"></div>
+            <div class="blinking-box-5 absolute top-[0px] left-[1600px] w-[300px] h-[270px] bg-black overflow-hidden"></div>
+        </div>
+    
+        
+
+        <div class="absolute pt-5 flex flex-row bottom-[50px] right-[140px] CharIn" >
+            <div class="w-[150px] h-[300px] bg-black  overflow-hidden active:bg-yellow-300 mx-2" id="ButtonChar" data-target="Char-1">
+                <div class="absolute w-[150px] h-[300px]  bg-black z-40 hover:bg-yellow-100 opacity-40 "></div>
+                <img src="assets/img/01/portrait.png" alt="" class="relative top-[40px] left-[0px] scale-[1.4]">
+                <div class="">
+                    <div class="relative border border-blue-600 left-[10px] bottom-[230px] w-fit">
+                        <h1 class="text-white font-bold text-xl mx-2">01</h1>
+                    </div>
+                    <div class="relative border border-blue-600  left-[0px] bottom-[190px] w-fit rotate-90">
+                        <h1 class="text-white font-bold text-xs mx-2">//ENDFIELD</h1>
+                    </div>
+                    <div class="relative border border-blue-600  right-[30px] bottom-[200px] w-fit rotate-90">
+                        <h1 class="text-white font-bold text-xs mx-2">Endministrator</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[150px] h-[300px] bg-black overflow-hidden active:bg-yellow-300 mx-2 " id="ButtonChar" data-target="Char-2">
+                <div class="absolute w-[150px] h-[300px] bg-black z-40 hover:bg-yellow-100 opacity-40 "></div>
+                <img src="assets/img/02/portrait.png" alt="" class="relative top-[40px] left-[0px] scale-[1.4]">
+                <div class="relative border border-blue-600 left-[10px] bottom-[230px] w-fit ">
+                    <h1 class="text-white font-bold text-xl mx-2">02</h1>
+                </div>
+                <div class="relative border border-blue-600  left-[0px] bottom-[190px] w-fit rotate-90">
+                    <h1 class="text-white font-bold text-xs mx-2">//ENDFIELD</h1>
+                </div>
+                <div class="relative border border-blue-600  right-[30px] bottom-[200px] w-fit rotate-90">
+                    <h1 class="text-white font-bold text-xs mx-2">Endministrator</h1>
+                </div>
+            </div>
+            <div class="w-[150px] h-[300px] bg-black overflow-hidden active:bg-yellow-300 mx-2" id="ButtonChar" data-target="Char-3">
+                <div class="absolute w-[150px] h-[300px] bg-black z-40 hover:bg-yellow-100 opacity-40 "></div>
+                <img src="assets/img/03/portrait.png" alt="" class="relative top-[40px] left-[0px] scale-[1.4]">
+                <div class="relative border border-blue-600 left-[10px] bottom-[230px] w-fit ">
+                    <h1 class="text-white font-bold text-xl mx-2">03</h1>
+                </div>
+                <div class="relative border border-blue-600  left-[0px] bottom-[190px] w-fit rotate-90">
+                    <h1 class="text-white font-bold text-xs mx-2">//ENDFIELD</h1>
+                </div>
+                <div class="relative border border-blue-600  right-[0px] bottom-[223px] w-fit rotate-90">
+                    <h1 class="text-white font-bold text-xs mx-2">Perlica</h1>
+                </div>
+            </div>
+            <div class="w-[150px] h-[300px] bg-black overflow-hidden active:bg-yellow-300 mx-2" id="ButtonChar" data-target="Char-4">
+                <div class="absolute w-[150px] h-[300px] bg-black z-40 hover:bg-yellow-100 opacity-40 "></div>
+                <img src="assets/img/04/portrait.png" alt="" class="relative top-[40px] left-[0px] scale-[1.4]">
+                <div class="relative border border-blue-600 left-[10px] bottom-[230px] w-fit ">
+                    <h1 class="text-white font-bold text-xl mx-2">04</h1>
+                </div>
+                <div class="relative border border-blue-600  right-[15px] bottom-[175px] w-fit rotate-90">
+                    <h1 class="text-white font-bold text-xs mx-2">//LANDBREAKER</h1>
+                </div>
+                <div class="relative border border-blue-600  right-[10px] bottom-[215px] w-fit rotate-90">
+                    <h1 class="text-white font-bold text-xs mx-2">Wulfgard</h1>
+                </div>
+            </div>
+            <div class="w-[150px] h-[300px] bg-black overflow-hidden active:bg-yellow-300 mx-2" id="ButtonChar" data-target="Char-5">
+                <div class="absolute w-[150px] h-[300px] bg-black z-40 hover:bg-yellow-100 opacity-40 "></div>
+                <img src="assets/img/05/portrait.png" alt="" class="relative top-[40px] left-[0px] scale-[1.4]">
+                <div class="relative border border-blue-600 left-[10px] bottom-[230px] w-fit ">
+                    <h1 class="text-white font-bold text-xl mx-2">05</h1>
+                </div>
+                <div class="relative border border-blue-600  right-[40px] bottom-[155px] rotate-90 w-[160px]">
+                    <h1 class="text-white font-bold text-xs mx-2 uppercase">//Order of Steel Oath</h1>
+                </div>
+                <div class="relative border border-blue-600  right-[0px] bottom-[230px] w-fit rotate-90">
+                    <h1 class="text-white font-bold text-xs mx-2">Xaihi
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="z-0 absolute bottom-[150px] left-[200px] flex flex-row items-center justify-center choseFade" id="theText">
+            <div class="my-5">
+                <h1 class="text-6xl font-bold uppercase">Chose Character</h1>
+            </div>
+            <div class="w-[70px] mx-5">
+                <svg viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="icomoon-ignore"> </g> <path d="M1.073 7.47v17.060l14.928-8.531-14.928-8.529zM2.139 9.307l11.712 6.692-11.712 6.693v-13.385z" fill="#000000"> </path> <path d="M16 7.47v17.060l14.928-8.531-14.928-8.529zM17.066 9.307l11.712 6.692-11.712 6.693v-13.385z" fill="#000000"> </path> </g></svg>
+            </div>
+        </div>
+        <div class="">
+            
+            <!-- Char-1 -->
+            <div class="flex flex-row max-w-[1500px] mx-auto justify-center z-0 hidden" id="Char-1">
+                <div class="w-1/2 pointer-events-none ">
+                    <div class="absolute bottom-0 -left-8 charSlide-overlay">
+                        <img src="assets/img/01/overlay.png" alt="" class="w-4/5">
+                    </div>
+                    <div class="absolute bottom-0 z-50 charSlide">
+                        <img src="assets/img/01/full.png" alt="" class="w-4/5">
+                    </div>
+                    
+                </div>
+                <div class="w-1/2 relative top-32 z-50 textSlide">
+                    <div class="flex flex-col">
+                        <h1 class="font-bold text-7xl pb-10">Endministrator</h1>
+                        <div class="text-white font-bold text-xl bg-black w-fit">
+                            <h1 class="mx-3">Endfield</h1>
+                        </div>
+                    </div>
+                    <div class=" pt-10 w-4/5 h-[290px] overflow-y-auto">
+                        <p class="font-bold text-xl text-justify">The Endministrator of Endfield Industries. <br>
+                            <br>
+                            Rumors claim that the Endministrator showed up on multiple occasions whenever a crisis hits Endfield Industries or Talos-II, creating many legends and stories.
+                            <br>
+                            The Endministrator remains an enigma to various factions on Talos-II. They are well aware that Endfield has a very special trump card in their hand, but that is all they know.
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Char-2 -->
+            <div class="flex flex-row max-w-[1500px] mx-auto justify-center z-0 hidden" id="Char-2">
+                <div class="w-1/2 pointer-events-none ">
+                    <div class="absolute bottom-0 -left-8 charSlide-overlay">
+                        <img src="assets/img/02/overlay.png" alt="" class="w-4/5">
+                    </div>
+                    <div class="absolute bottom-0 z-50 charSlide">
+                        <img src="assets/img/02/full.png" alt="" class="w-4/5">
+                    </div>
+                    
+                </div>
+                <div class="w-1/2 relative top-32 z-50 textSlide">
+                    <div class="flex flex-col">
+                        <h1 class="font-bold text-7xl pb-10">Endministrator</h1>
+                        <div class="text-white font-bold text-xl bg-black w-fit">
+                            <h1 class="mx-3">Endfield</h1>
+                        </div>
+                    </div>
+                    <div class=" pt-10 w-4/5 h-[290px] overflow-y-auto">
+                        <p class="font-bold text-xl text-justify">The Endministrator of Endfield Industries. <br>
+                            <br>
+                            Rumors claim that the Endministrator showed up on multiple occasions whenever a crisis hits Endfield Industries or Talos-II, creating many legends and stories.
+                            <br>
+                            The Endministrator remains an enigma to various factions on Talos-II. They are well aware that Endfield has a very special trump card in their hand, but that is all they know.
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Char-3 -->
+            <div class="flex flex-row max-w-[1500px] mx-auto justify-center z-0 hidden" id="Char-3">
+                <div class="w-1/2 pointer-events-none ">
+                    <div class="absolute bottom-0 -left-8 charSlide-overlay">
+                        <img src="assets/img/03/overlay.png" alt="" class="w-4/5">
+                    </div>
+                    <div class="absolute bottom-0 z-50 charSlide-1">
+                        <img src="assets/img/03/full.png" alt="" class="w-4/5">
+                    </div>
+                    
+                </div>
+                <div class="w-1/2 relative top-32 z-50 textSlide">
+                    <div class="flex flex-col">
+                        <h1 class="font-bold text-7xl pb-10">Endministrator</h1>
+                        <div class="text-white font-bold text-xl bg-black w-fit">
+                            <h1 class="mx-3">Endfield</h1>
+                        </div>
+                    </div>
+                    <div class=" pt-10 w-4/5 h-[290px] overflow-y-auto">
+                        <p class="font-bold text-xl text-justify">"People have grown used to the gray skies of Talos-II, and certain sights are remembered no longer. What about you, Endministrator?"
+                            <br> <br>
+                            Perlica is the Supervisor of Endfield Industries in charge of directing various operations according to the plans of the Endfield leadership.
+                            <br>
+                            She is capable of responding to various crises in a calm and decisive manner. However, Endfield often faces challenges that go beyond their expectations. Perlica often has to move from base to base, doing whatever she can to maintain order and keep things running.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Char-4 -->
+            <div class="flex flex-row max-w-[1500px] mx-auto justify-center z-0 hidden" id="Char-4">
+                <div class="w-1/2 pointer-events-none ">
+                    <div class="absolute bottom-0 -left-8 charSlide-overlay">
+                        <img src="assets/img/04/overlay.png" alt="" class="w-4/5">
+                    </div>
+                    <div class="absolute bottom-0 z-50 charSlide-1">
+                        <img src="assets/img/04/full.png" alt="" class="w-4/5">
+                    </div>
+                    
+                </div>
+                <div class="w-1/2 relative top-32 z-50 textSlide">
+                    <div class="flex flex-col">
+                        <h1 class="font-bold text-7xl pb-10">Wulfgard</h1>
+                        <div class="text-white font-bold text-xl bg-black w-fit">
+                            <h1 class="mx-3">Landbreaker</h1>
+                        </div>
+                    </div>
+                    <div class=" pt-10 w-4/5 h-[290px] overflow-y-auto">
+                        <p class="font-bold text-xl text-justify">"I know that strength isn't everything, but in Talos-II, you can't live without it." <br><br>
+
+                            As a young mercenary living in the fringes of civilization, Wulfgard is already very familiar with the darkest aspects of humanity. Years of vagabond life also gave him a maturity that goes far beyond his age.
+                            <br>
+                            A former member of the Landbreaker clan known as the Pack, Wulfgard can be a reliable and trustworthy friend ... if you can earn his trust. However, this is no easy feat.
+                            <br>
+                        </p>
+                     </div>
+                </div>
+            </div>
+            <!-- Char-5 -->
+            <div class="flex flex-row max-w-[1500px] mx-auto justify-center z-0 hidden" id="Char-5">
+                <div class="w-1/2 pointer-events-none ">
+                    <div class="absolute bottom-0 -left-8 charSlide-overlay">
+                        <img src="assets/img/05/overlay.png" alt="" class="w-4/5">
+                    </div>
+                    <div class="absolute bottom-0 z-50 charSlide-1">
+                        <img src="assets/img/05/full.png" alt="" class="w-4/5">
+                    </div>
+                    
+                </div>
+                <div class="w-1/2 relative top-32 z-50 textSlide">
+                    <div class="flex flex-col">
+                        <h1 class="font-bold text-7xl pb-10">Xaihi</h1>
+                        <div class="text-white font-bold text-xl bg-black w-fit">
+                            <h1 class="mx-3">Order of Steel Oath</h1>
+                        </div>
+                    </div>
+                    <div class=" pt-10 w-4/5 h-[290px] overflow-y-auto ">
+                        <p class="font-bold text-xl text-justify">"The angels I know definitely look nothing like this." <br><br>
+
+                            Very few people know anything about Xaihi's past. They only heard that she came from an isolated and mysterious place where people have an odd reverence for technology.
+                            <br>
+                            Despite her appearances, the way that Xaihi talks and acts is hardly typical of a girl who grew up in a cloister. One must get used to her vast and seemingly trivial knowledge as well as her tendency to jump from one strange topic to the next. Xaihi herself, however, is oblivious to these issues.
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute top-[50%] " id="hamburger">
+            <img src="./assets/img/menu_button.png" alt="">
+            <div class="absolute bottom-[130px] -left-2 rotate-90">
+                <h1 class="text-xl font-bold text-white">MORE</h1>
+            </div>
+        </div>
+        
+        <div class="z-10 absolute bottom-5 hidden slide-from-left" id="menu">
+            <img src="./assets/img/menu_bg.fbd74a.png" alt="">
+            <div class="w-full flex flex-col absolute top-[90px]">
+                <a href="./index.html">
+                    <div class="w-full h-[90px] hover:bg-black/50 flex justify-center items-center text-white hover:text-yellow-300">
+                        <h1 class="font-bold text-xl">HOME</h1>
+                    </div>
+                </a>
+                <a href="./character.html">
+                    <div class="w-full h-[90px] bg-black flex justify-center items-center text-yellow-300 hover:text-yellow-300">
+                        <div class="w-5 h-[90px] bg-yellow-300 absolute left-[0px]"></div>
+                        <h1 class="font-bold text-xl">OPERATOR</h1>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+        <div class="w-[50px] z-10 absolute top-[200px] left-[95px] hidden slide-from-left-1 close-button" id="hamburger1">
+            <svg fill="#ffffff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 460.775 460.775" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55 c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55 c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505 c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55 l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719 c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z"></path> </g></svg>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+
+    <script>
+        
+  
+    </script>
+</body>
+</html>
